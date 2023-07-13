@@ -1,2 +1,0 @@
-# homework
-homeworks by Nastya
