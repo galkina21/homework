@@ -6,19 +6,14 @@
   }
   .comp-itemsuperman { 
     position: relative; 
-    left: 345px; 
+    left: 300px; 
     top: 84px; 
   } 
   .comp-itemplanet-1 { 
     position: relative; 
     left: 190px; 
     top: -100px; 
- 
-  } 
-  .comp-itemspaceship { 
-    position: relative; 
-    top: -42px; 
-    left: -145px; 
+    
   } 
   .comp-itemplanet-2 { 
     position: relative; 
@@ -27,13 +22,20 @@
   } 
   .comp-itemplanet-3 { 
     position: relative; 
-    left: -190px; 
+    left: -150px; 
     top: 138px; 
-  } 
+    z-index: 1;
+  }   
+  .comp-itemspaceship { 
+    position: relative; 
+    top: -105px; 
+    left: 80px; 
+  }
   .comp-itemufo { 
     position: relative; 
-    left: 60px; 
+    left: 10px; 
     top: 25px; 
+    z-index: 2;
   } 
   .comp-itemasteroid { 
     position: relative; 
