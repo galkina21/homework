@@ -1,5 +1,15 @@
-body {
-    background-color:rgb(191, 191, 188);
+.main {
+    height: 800px;
+ background-color: rgb(191, 191, 188);
+}
+.container {
+    background-color: rgb(248, 229, 255);
+    width: 830px;
+    height: 730px;text-align: center;
+    margin: 0 auto;
+}
+.main .container {
+    padding-top: 25px;
 }
 .wrapper {
     display: inline-block;
@@ -10,8 +20,7 @@ body {
     width: 200px;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 10px;
-    float: left;
+    margin-bottom: 5px;
 }
 .first-title {
     margin-top: 20px;
@@ -48,8 +57,8 @@ body {
     width: 200px;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 10px;
-    float: left;
+    margin-bottom: 5px;
+    
 }
 .second-title {
     margin-top: 20px;
@@ -72,8 +81,8 @@ body {
     width: 200px;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 10px;
-    float: left;
+    margin-bottom: 5px;
+    
 }
 .fourth-title {
     margin-top: 20px;
@@ -95,8 +104,8 @@ body {
     width: 200px;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 10px;
-    float: left;
+    margin-bottom: 5px;
+   
 }
 .fifth-title {
     margin-top: 20px;
@@ -118,8 +127,8 @@ body {
     width: 200px;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 10px;
-    float: left;
+    margin-bottom: 5px;
+    
 }
 .sixth-title {
     margin-top: 20px;
@@ -142,8 +151,8 @@ body {
     width: 200px;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 10px;
-    float: left;
+    margin-bottom: 5px;
+   
 }
 .third-title {
     margin-top: 20px;
