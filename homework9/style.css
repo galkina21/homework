@@ -1,0 +1,147 @@
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    height: 700px;
+    background-color: #EEEFF1;
+}
+.header .container {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.navigation ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+.navigation ul li {
+    display: inline-block;
+    margin-left: 42px;
+}
+.header-head {
+    margin-top: 151px;
+    font-size: 48px;
+    font-weight: 500;
+    color: black;
+}
+.header-parg {
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #727272;
+}
+.navigation {
+    margin-left: -80px;
+}
+.header-btn {
+     margin-top: 84px;
+     width: 225px;
+     height: 65px;
+     background-color: #34547A;
+}
+.button1 {
+    
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+.header2 {
+    height: 280px;
+    background-color: #F9F9F9;
+}
+.header2 .container2 {
+    width: 1110px;
+    margin: 0 auto;
+   padding: 60px 0;
+}
+.header2-head {
+    margin-top: 112px;
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.header2-parg {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #727272;
+    text-align: center;
+}
+.header3 {
+    height: 250px;
+    background-color: #34547A;
+}
+.header3 .container3 {
+    width: 1110px;
+    margin: 0 auto;
+   padding: 100px 0;
+   text-align: center;
+}
+.im2 
+{
+    margin-left: 40px;
+}
+.im3 
+{
+    margin-left: 40px;
+}
+.im4 
+{
+    margin-left: 40px;
+} 
+.im5 {
+    margin-left: 40px;
+}
+.im6 {
+    margin-left: 40px;
+} 
+.header4 {
+    height: 1005px;
+    background-color: #F9F9F9;
+}
+.header4 .container4 {
+    width: 1110px;
+    margin: 0 auto;
+   padding: 60px 0;
+}
+.header4-head {
+    margin-top: 112px;
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.header4-parg {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: black;
+    text-align: center;
+}
+.header5 {
+    height: 151px; 
+    background-color: #34547A;
+}
+.header5-head {
+    margin-top: 112px;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+}
+.header5-parg {
+    font-size: 13px;
+    font-weight: 400px;
+    color: white;
+}
+.container5 {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.vid {
+    margin-top: 80px;
+}
