@@ -81,24 +81,10 @@
    padding: 100px 0;
    text-align: center;
 }
-.im2 
-{
-    margin-left: 40px;
+.image {
+    display: flex;
+    justify-content: space-around;
 }
-.im3 
-{
-    margin-left: 40px;
-}
-.im4 
-{
-    margin-left: 40px;
-} 
-.im5 {
-    margin-left: 40px;
-}
-.im6 {
-    margin-left: 40px;
-} 
 .header4 {
     height: 1005px;
     background-color: #F9F9F9;
