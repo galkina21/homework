@@ -1,0 +1,42 @@
+.main_menu {
+    display: flex;
+    align-items: center;
+   background-color: rgb(75, 73, 73);
+   height: 50px;
+   font-family: 'Roboto', sans-serif;
+   border-bottom: 5px solid rgb(0, 122, 187);
+}
+.main_menu li:hover {
+    background-color: rgb(0, 122, 187);
+}
+a {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    padding: 15px 30px;
+    font-size: 22px;
+    display: inline-block;
+}
+.product_menu {
+background-color: rgb(0, 122, 187);
+position: absolute;
+min-width: 250px;
+}
+.product_menu a {
+    border: 1px solid rgb(54, 54, 212);
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    font-size: 22px;
+    display: block;
+}
+.product_menu .product_menu {
+position: absolute;
+top: 0px;
+left: 100%;
+}
+.product_menu li {
+    position: relative;
+}
+ul {
+    list-style: none;
+}
