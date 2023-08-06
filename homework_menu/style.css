@@ -1,0 +1,59 @@
+.main_menu {
+  display: flex;
+  align-items: center;
+ background-color: #31466b;
+ height: 60px;
+ font-family: 'Roboto', sans-serif;
+ border-bottom: 5px solid rgb(48, 98, 124);
+}
+
+nav ul {
+  padding:0;
+  margin:0;
+  list-style: none;
+  position: relative;
+  }
+
+nav ul li {
+  margin: 0px -7px 0 0;
+  display:inline-block;
+  background-color: #31466b;
+
+  }
+  
+nav a {
+  display:block;
+  padding:0 10px;
+  color:#FFF;
+  font-size:20px;
+  line-height: 60px;
+  text-decoration:none;
+}
+
+nav a:hover {
+  background-color: #4b6075;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+nav ul li:hover > ul {
+  display:inherit;
+}
+
+nav ul ul li {
+  min-width:170px;
+  display:list-item;
+  position: relative;
+  border: 3px solid rgb(48, 98, 124);
+}
+
+nav ul ul ul {
+  position: absolute;
+  top:0;
+  left:100%;
+}
+
