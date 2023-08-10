@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>homework912</title>
@@ -17,8 +18,8 @@
       <section class="start">
         <div class="container">
           <div class="header__inner">
-            <img class="nav__logo" src="./gallery/Frame.png" alt="#" />
             <nav class="nav">
+              <img class="nav__logo" src="./gallery/Frame.png" alt="#" />
               <a class="nav__link" href="#">Product</a>
               <a class="nav__link" href="#">Features</a>
               <a class="nav__link" href="#">Pricing</a>
@@ -40,7 +41,7 @@
     <div class="intro">
       <div class="container">
         <div class="intro__inner image">
-          <nav class="info">
+          <div class="info">
             <h1 class="info__head">
               <b>Accelerate <br />localization from <br />code to delivery</b>
             </h1>
@@ -58,30 +59,30 @@
             <p class="info__parg2">
               Try all features for 14 days · No credit card required
             </p>
-          </nav>
-          <nav>
+          </div>
+          <div>
             <img class="ph" src="./gallery/photo.png" alt="#" />
-          </nav>
+          </div>
         </div>
       </div>
     </div>
     <section class="section">
       <div class="container">
         <div class="section__header">
-          <nav class="orange">
-            <h1 class="orange__head">
+          <div class="orange">
+            <h2 class="orange__head">
               <b>The preferred localization <br />tool of 1500+ companies </b>
-            </h1>
+            </h2>
             <img class="orange__img" src="./gallery/frfr.png" alt="#" />
-          </nav>
+          </div>
         </div>
       </div>
     </section>
 
     <div class="page">
-      <div class="container1">
+      <div class="container">
         <div class="card__inner first">
-          <nav class="cards">
+          <div class="cards">
             <h1 class="cards__head">
               <b>Control the <br />localization process</b>
             </h1>
@@ -92,16 +93,16 @@
               when.
             </p>
             <a class="cards__link" href="#"><b>Start now</b></a>
-          </nav>
-          <nav>
+          </div>
+          <div>
             <img class="photo" src="./gallery/11.png" alt="#" />
-          </nav>
+          </div>
         </div>
         <div class="card__inner first">
-          <nav class="cards">
-            <h1 class="cards__head">
+          <div class="cards">
+            <h2 class="cards__head">
               <b>Shorten time <br />to market</b>
-            </h1>
+            </h2>
             <p class="cards__parg">
               Localize your product in parallel with the <br />development
               cycle. Use the Adobe XD, Figma, <br />and Sketch plugins to start
@@ -109,16 +110,16 @@
               <br />ready. No more idle waiting.
             </p>
             <a class="cards__link" href="#"><b>Start now</b></a>
-          </nav>
-          <nav>
+          </div>
+          <div>
             <img class="photo" src="./gallery/12.png" alt="#" />
-          </nav>
+          </div>
         </div>
         <div class="card__inner first">
-          <nav class="cards">
-            <h1 class="cards__head">
+          <div class="cards">
+            <h2 class="cards__head">
               <b>Ensure quality</b>
-            </h1>
+            </h2>
             <p class="cards__parg">
               Use built-in tools — e.g. <br />translation memory, machine
               translation, <br />and QA checks — to enhance the quality and
@@ -126,16 +127,16 @@
               context and use the in-context editors for instant previews.
             </p>
             <a class="cards__link" href="#"><b>Start now</b></a>
-          </nav>
-          <nav>
+          </div>
+          <div>
             <img class="photo" src="./gallery/13.png" alt="#" />
-          </nav>
+          </div>
         </div>
         <div class="card__inner first">
-          <nav class="cards">
-            <h1 class="cards__head">
+          <div class="cards">
+            <h2 class="cards__head">
               <b>Less work for <br />developers</b>
-            </h1>
+            </h2>
             <p class="cards__parg">
               Eliminate the hassle of localization and let developers <br />get
               back to their main tasks. Save hours with the <br />powerful API,
@@ -143,106 +144,107 @@
               JIRA, and more.
             </p>
             <a class="cards__link" href="#"><b>Start now</b></a>
-          </nav>
-          <nav>
+          </div>
+          <div>
             <img
               class="photo"
               style="width: 632px; height: 632px"
               src="./gallery/14.jpeg"
               alt="#"
             />
-          </nav>
+          </div>
         </div>
       </div>
     </div>
 
     <section class="form">
       <container class="container">
-        <h1 class="marks__head">
+        <h2 class="marks__head">
           <b>What can you localize with Lokalise? </b>
-        </h1>
+        </h2>
+        <div class="content">
+          <div class="pic-box">
+            <img class="image-box__im1" src="./gallery/41.png" alt="#" />
+            <h2 class="pic-box__header-head">
+              <b>Web apps</b>
+            </h2>
+            <p class="pic-box__header-parg">
+              Any kind of web apps — backend, <br />frontend, single page, blogs
+              — you <br />name it.
+            </p>
+          </div>
 
-        <div class="pic-box">
-          <img class="image-box__im1" src="./gallery/41.png" alt="#" />
-          <h1 class="pic-box__header-head">
-            <b>Web apps</b>
-          </h1>
-          <p class="pic-box__header-parg">
-            Any kind of web apps — backend, <br />frontend, single page, blogs —
-            you <br />name it.
-          </p>
-        </div>
+          <div class="pic-box">
+            <img class="image-box__im1" src="./gallery/42.png" alt="#" />
+            <h2 class="pic-box__header-head">
+              <b>Mobile apps</b>
+            </h2>
+            <p class="pic-box__header-parg">
+              Upload any mobile platform language <br />files. Embed
+              <a class="pic__link" href="#">Lokalise iOS SDK</a> or <br /><a
+                class="pic__link"
+                href="#"
+                >Lokalise Android SDK</a
+              >if you prefer.
+            </p>
+          </div>
 
-        <div class="pic-box">
-          <img class="image-box__im1" src="./gallery/42.png" alt="#" />
-          <h1 class="pic-box__header-head">
-            <b>Mobile apps</b>
-          </h1>
-          <p class="pic-box__header-parg">
-            Upload any mobile platform language <br />files. Embed
-            <a class="pic__link" href="#">Lokalise iOS SDK</a> or <br /><a
-              class="pic__link"
-              href="#"
-              >Lokalise Android SDK</a
-            >if you prefer.
-          </p>
-        </div>
+          <div class="pic-box">
+            <img class="image-box__im1" src="./gallery/43.png" alt="#" />
+            <h2 class="pic-box__header-head">
+              <b>Games</b>
+            </h2>
+            <p class="pic-box__header-parg">
+              Our cloud software is trusted by <br />many leading game
+              developers <br />around the world.
+            </p>
+          </div>
 
-        <div class="pic-box">
-          <img class="image-box__im1" src="./gallery/43.png" alt="#" />
-          <h1 class="pic-box__header-head">
-            <b>Games</b>
-          </h1>
-          <p class="pic-box__header-parg">
-            Our cloud software is trusted by <br />many leading game developers
-            <br />around the world.
-          </p>
-        </div>
+          <div class="pic-box">
+            <img class="image-box__im1" src="./gallery/44.png" alt="#" />
+            <h2 class="pic-box__header-head">
+              <b>Documents</b>
+            </h2>
+            <p class="pic-box__header-parg">
+              Upload your DOCX and static HTML <br />files.
+            </p>
+          </div>
 
-        <div class="pic-box">
-          <img class="image-box__im1" src="./gallery/44.png" alt="#" />
-          <h1 class="pic-box__header-head">
-            <b>Documents</b>
-          </h1>
-          <p class="pic-box__header-parg">
-            Upload your DOCX and static HTML <br />files.
-          </p>
-        </div>
+          <div class="pic-box">
+            <img class="image-box__im1" src="./gallery/45.png" alt="#" />
+            <h2 class="pic-box__header-head">
+              <b>Marketing e-mails</b>
+            </h2>
+            <p class="pic-box__header-parg">
+              Integrate with Salesforce Marketing <br />Cloud (coming soon) or
+              translate <br />static e-mails.
+            </p>
+          </div>
 
-        <div class="pic-box">
-          <img class="image-box__im1" src="./gallery/45.png" alt="#" />
-          <h1 class="pic-box__header-head">
-            <b>Marketing e-mails</b>
-          </h1>
-          <p class="pic-box__header-parg">
-            Integrate with Salesforce Marketing <br />Cloud (coming soon) or
-            translate <br />static e-mails.
-          </p>
-        </div>
-
-        <div class="pic-box">
-          <img class="image-box__im1" src="./gallery/46.png" alt="#" />
-          <h1 class="pic-box__header-head">
-            <b>IoT</b>
-          </h1>
-          <p class="pic-box__header-parg">
-            We support most popular localization <br />file formats.
-          </p>
+          <div class="pic-box">
+            <img class="image-box__im1" src="./gallery/46.png" alt="#" />
+            <h2 class="pic-box__header-head">
+              <b>IoT</b>
+            </h2>
+            <p class="pic-box__header-parg">
+              We support most popular localization <br />file formats.
+            </p>
+          </div>
         </div>
       </container>
     </section>
 
     <section class="form2">
       <container class="container">
-        <h1 class="marks__head">
+        <h2 class="marks__head">
           <b>Boost your localization team’s productivity tenfold </b>
-        </h1>
-
+        </h2>
+<div class="slots">
         <div class="pic2-box">
           <img class="image-box__im1" src="./gallery/31.png" alt="#" />
-          <h1 class="pic2-box__header-head">
+          <h2 class="pic2-box__header-head">
             <b>Managers</b>
-          </h1>
+          </h2>
           <p class="pic2-box__header-parg">
             Update existing and launch new features <br />and products while
             simultaneously <br />localizing them in multiple languages.
@@ -253,10 +255,10 @@
         </div>
 
         <div class="pic2-box">
-          <img class="image-box__im1" src="./gallery/32.png" alt="#" />
-          <h1 class="pic2-box__header-head">
+          <img style="padding-bottom: 30px;" class="image-box__im1" src="./gallery/32.png" alt="#" />
+          <h2 class="pic2-box__header-head">
             <b>Developers</b>
-          </h1>
+          </h2>
           <p class="pic2-box__header-parg">
             Set up an integration with your code <br />repository or your own
             custom SDK via <br />Lokalise's
@@ -268,10 +270,10 @@
         </div>
 
         <div class="pic2-box">
-          <img class="image-box__im1" src="./gallery/33.png" alt="#" />
-          <h1 class="pic2-box__header-head">
+          <img style="padding-bottom: 15px;" class="image-box__im1" src="./gallery/33.png" alt="#" />
+          <h2 class="pic2-box__header-head">
             <b>Translators</b>
-          </h1>
+          </h2>
           <p class="pic2-box__header-parg">
             Eliminate double-work and neverending <br />revisions with visual
             context (screenshots) <br />and live previews. Improve the quality
@@ -281,6 +283,7 @@
           </p>
           <a class="pic2__link" href="#">Learn more</a>
         </div>
+      </div>
       </container>
     </section>
 
@@ -288,7 +291,7 @@
       <div class="grey">
         <div class="container">
           <div class="sect__inner second">
-            <nav class="pag">
+            <div class="pag">
               <p class="pag__parg">
                 “Lokalise has turned a task we were dreading into an absolute
                 <br />pleasure. Great platform, intuitive UX, powerful API. The
@@ -296,12 +299,12 @@
                 <br />lifesaver, and over-the-air updates are the icing on the
                 cake.”
               </p>
-              <p class="pag__link">Edward Cooper, Chief Mobile Officer</p>
+              <p class="pag__par">Edward Cooper, Chief Mobile Officer</p>
               <img src="./gallery/revo.png" alt="#" />
-            </nav>
-            <nav>
+            </div>
+            <div>
               <img src="./gallery/man.png" alt="#" />
-            </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -310,13 +313,13 @@
     <section class="section3">
       <div class="container">
         <div class="section3__header">
-          <nav class="brown">
+          <div class="brown">
             <img
               style="width: 1330px; height: 265px"
               src="./gallery/cake.png"
               alt="#"
             />
-          </nav>
+          </div>
         </div>
       </div>
     </section>
@@ -324,10 +327,10 @@
     <section class="section4">
       <div class="container">
         <div class="section4__header">
-          <nav class="bird">
-            <h1 class="bird__head">
+          <div class="bird">
+            <h2 class="bird__head">
               <b>Integrate Lokalise with <br />your work tools </b>
-            </h1>
+            </h2>
             <h2 class="bird__parg">
               Automate processes, eliminate routine tasks, <br />and track
               progress with ease.
@@ -336,7 +339,7 @@
             <button class="beton">
               <a class="beton__button1" href="#">See all integrations</a>
             </button>
-          </nav>
+          </div>
         </div>
       </div>
     </section>
@@ -344,17 +347,17 @@
     <section class="section">
       <div class="container">
         <div class="section__header">
-          <nav class="orange2">
-            <h1 class="orange2__head">
+          <div class="orange2">
+            <h2 class="orange2__head">
               <b>Localization made easy. <br />Why wait? </b>
-            </h1>
+            </h2>
             <h2 class="orange2__h2">
               Try for free or let us show you how it works.
             </h2>
             <button class="baton">
               <a class="baton__button1" href="#">Try it free</a>
             </button>
-          </nav>
+          </div>
         </div>
       </div>
     </section>
@@ -362,11 +365,16 @@
     <div class="intro2">
       <div class="container">
         <div class="intro2__inner image">
-          <nav class="info2">
-            <h1 class="info2__head">
+          <div class="info2">
+            <h2 class="info2__head">
               <b>Case Studies</b>
-            </h1>
+            </h2>
             <img src="./gallery/bic.png" alt="#" />
+            <img
+              style="width: 80px; height: 32px; margin-top: 10px"
+              src="./gallery/specialized.png"
+              alt="#"
+            />
             <p class="info2__parg">
               Riding towards global success <br />with a 100% teammate
               <br />enthusiasm
@@ -374,10 +382,10 @@
             <a href="#" class="info2__parg2">
               <b>Read more</b>
             </a>
-          </nav>
+          </div>
 
-          <nav class="block">
-            <h1 class="big">Product</h1>
+          <div class="block">
+            <h2 class="big">Product</h2>
             <a href="#" class="lin">For developers</a>
             <a href="#" class="lin">For managers</a>
             <a href="#" class="lin">For translators</a>
@@ -386,10 +394,10 @@
             <a href="#" class="lin">Security</a>
             <a href="#" class="lin">Pricing</a>
             <a href="#" class="lin">Automations</a>
-          </nav>
+          </div>
 
-          <nav class="block">
-            <h1 class="big">Support</h1>
+          <div class="block">
+            <h2 class="big">Support</h2>
             <a href="#" class="lin">Contact</a>
             <a href="#" class="lin">Documentation</a>
             <a href="#" class="lin">Status</a>
@@ -398,18 +406,18 @@
             <a href="#" class="lin">API Reference</a>
             <a href="#" class="lin">iOS and Android SDK</a>
             <a href="#" class="lin">Supported File Formats</a>
-          </nav>
-          <nav class="block">
-            <h1 class="big">Company</h1>
+          </div>
+          <div class="block">
+            <h2 class="big">Company</h2>
             <a href="#" class="lin">About</a>
             <a href="#" class="lin">Blog</a>
             <a href="#" class="lin">Careers | We`re Hiring</a>
             <a href="#" class="lin">Case Studies</a>
             <a href="#" class="lin">Media Kit</a>
-          </nav>
+          </div>
 
-          <nav class="block">
-            <h1 class="big">Legal</h1>
+          <div class="block">
+            <h2 class="big">Legal</h2>
             <a href="#" class="lin">Terms of Service</a>
             <a href="#" class="lin">Privacy Policy</a>
             <a href="#" class="lin">Cookie Policy</a>
@@ -417,28 +425,28 @@
             <a href="#" class="lin">DPA</a>
             <a href="#" class="lin">List of Sub-processors</a>
             <a href="#" class="lin">Candidates Privacy Notice</a>
-          </nav>
+          </div>
         </div>
       </div>
     </div>
 
-    <header class="header">
+    <footer class="footer">
       <section class="end">
         <div class="container">
           <div class="header__inner">
-            <nav class="nav">
+            <div class="nav">
               <img class="nav__logo" src="./gallery/loka.png" alt="#" />
-              <h1 class="navi__h1">
+              <p class="navi__h1">
                 Localization workflow for your web and mobile <br />apps, games
                 and digital content.
-              </h1>
-            </nav>
-            <nav>
+              </p>
+            </div>
+            <div>
               <p class="year">©2001-2020<br />All rights reserved.</p>
-            </nav>
+            </div>
           </div>
         </div>
       </section>
-    </header>
+    </footer>
   </body>
 </html>
