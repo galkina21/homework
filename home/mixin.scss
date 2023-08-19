@@ -1,0 +1,12 @@
+
+  @mixin important-text {
+    color: red;
+    margin: $margin;
+   font-weight: bold;
+    border: 1px solid blue;
+   }
+   @mixin secondary-text {
+    color: $main-color;
+    font-size: $fz-small;
+    border: 1px solid blue;
+   }
