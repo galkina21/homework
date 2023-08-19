@@ -1,16 +1,20 @@
-
-@import "mixin.scss";
 @import "variables.scss";
+@import "mixin.scss";
+
 
 .container {
     width: 1250px;
     margin: 0 auto;
 }
 .header {
-    @include important-text;
-    max-width: $maxWidth;
+     max-width: $maxWidth;
+     margin-top: $margin;
+     @include important-text;
+   
 }
 .text {
+    color: $main-color;
+    font-size: $fz-small;
     @include secondary-text;
 }
 
